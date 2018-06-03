@@ -1,0 +1,1507 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"nex",
+				"nextProps"
+			],
+			[
+				"ne",
+				"nextProps"
+			],
+			[
+				"accou",
+				"account-page"
+			],
+			[
+				"cate",
+				"categoryId"
+			],
+			[
+				"ed",
+				"edges"
+			],
+			[
+				"propT",
+				"propTypes\t(Editor.js)"
+			],
+			[
+				"edito",
+				"editor-toolbar"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"index",
+				"index.less"
+			],
+			[
+				"BlogL",
+				"BlogList"
+			],
+			[
+				"rand",
+				"randInt"
+			],
+			[
+				"com",
+				"comment-username"
+			],
+			[
+				"trans",
+				"Translated"
+			],
+			[
+				"rende",
+				"renderCommentItem"
+			],
+			[
+				"up",
+				"updatedAt"
+			],
+			[
+				"upda",
+				"updatedAt\t(en.js)"
+			],
+			[
+				"pri",
+				"prism-atom-dark.css"
+			],
+			[
+				"defau",
+				"defaultProps\t(BlogList.js)"
+			],
+			[
+				"BlogLi",
+				"BlogListItem"
+			],
+			[
+				"fix",
+				"fixed"
+			],
+			[
+				"Blog",
+				"BlogList"
+			],
+			[
+				"tra",
+				"TranslatedNavLink"
+			],
+			[
+				"di",
+				"disabled\t(Emmet.sublime-settings)"
+			],
+			[
+				"loss",
+				"loss_fn\tstatement"
+			],
+			[
+				"clas",
+				"classifier"
+			],
+			[
+				"classi",
+				"classifier\t(introduction.tex)"
+			],
+			[
+				"all_",
+				"all_positive"
+			],
+			[
+				"pts",
+				"pts_src"
+			],
+			[
+				"RETR",
+				"RETR_EXTERNAL\tinstance"
+			],
+			[
+				"CHAIN_A",
+				"CHAIN_APPROX_SIMPLE\tinstance"
+			],
+			[
+				"monop",
+				"monop"
+			],
+			[
+				"LecR",
+				"LetRecInExp\t(common.ml)"
+			],
+			[
+				"Lits",
+				"ListVal"
+			],
+			[
+				"Cons",
+				"ConsOp\t(common.ml)"
+			],
+			[
+				"binop",
+				"binop"
+			],
+			[
+				"getI",
+				"getItems"
+			],
+			[
+				"addi",
+				"additional_items"
+			],
+			[
+				"leafi",
+				"leafitems"
+			],
+			[
+				"child",
+				"children\tstatement"
+			],
+			[
+				"pano_b",
+				"pano_background.jpg\tw:1632 h:512"
+			],
+			[
+				"navigatio",
+				"navigation-toggle"
+			],
+			[
+				"rect",
+				"rect_frame270.jpg\tw:480 h:360"
+			],
+			[
+				"times_",
+				"times_exp_without_fun"
+			],
+			[
+				"Float",
+				"FloatPlusOp\t(common.ml)"
+			],
+			[
+				"Const",
+				"ConstExp\t(common.ml)"
+			],
+			[
+				"remain",
+				"remainingtwo"
+			],
+			[
+				"CON",
+				"ConstExp"
+			],
+			[
+				"LOG",
+				"LOGICALAND"
+			],
+			[
+				"EQ",
+				"EqOp"
+			],
+			[
+				"DO",
+				"do"
+			],
+			[
+				"MOD",
+				"ModOp\t(common.ml)"
+			],
+			[
+				"RAI",
+				"RaiseExp\t(common.ml)"
+			],
+			[
+				"Ni",
+				"NIL"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"profile_",
+				"profile_image.jpg\tw:1280 h:960"
+			],
+			[
+				"snli",
+				"snli_1.0_train.jsonl"
+			],
+			[
+				"multi",
+				"multinli_1.0_train.jsonl"
+			],
+			[
+				"0_",
+				"snli_1.0_train.jsonl"
+			],
+			[
+				"validae_",
+				"validate_label"
+			],
+			[
+				"conf",
+				"conf_matrix\tstatement"
+			],
+			[
+				"tag_",
+				"tag_prev"
+			],
+			[
+				"count",
+				"counts_tij\tstatement"
+			],
+			[
+				"num",
+				"num_sen\tstatement"
+			],
+			[
+				"default",
+				"defaultdict"
+			],
+			[
+				"class",
+				"classifiers"
+			],
+			[
+				"lapl",
+				"laplacian-pyramid-blending.jpg\tw:1630 h:1406"
+			],
+			[
+				"vec",
+				"vec_dense"
+			],
+			[
+				"label",
+				"label_file"
+			],
+			[
+				"Mon",
+				"MonOpAppCPS"
+			],
+			[
+				"BinOpA",
+				"BinOpAppCPS"
+			],
+			[
+				"Let",
+				"LetRecInExp"
+			],
+			[
+				"toast2",
+				"toast2_cat_11_5_0.1_0.3.jpg\tw:400 h:398"
+			],
+			[
+				"iter",
+				"iter_02_23_7_0.1_0.2_3.jpg\tw:500 h:375"
+			],
+			[
+				"iter_02",
+				"iter_02_35_11_0.1_0.2_2.jpg\tw:500 h:375"
+			],
+			[
+				"toa",
+				"toast_tile_23_7_0.1_0.2.jpg\tw:500 h:375"
+			],
+			[
+				"qr",
+				"mat_qr_code_21_7_0.1_0.4.jpg\tw:604 h:602"
+			],
+			[
+				"cheatsh",
+				"cheatsheet_icecream_11_3_0.1_0.3.jpg\tw:500 h:678"
+			],
+			[
+				"vo",
+				"vocab_type\tstatement"
+			],
+			[
+				"sen",
+				"sentence"
+			],
+			[
+				"counts",
+				"counts_bi\tstatement"
+			],
+			[
+				"find",
+				"find_allk"
+			],
+			[
+				"even",
+				"even_count"
+			],
+			[
+				"tru",
+				"truncatek"
+			],
+			[
+				"unr",
+				"unordered_map"
+			],
+			[
+				"color-",
+				"color-shift"
+			],
+			[
+				"froyo",
+				"froyo_less_yellow.jpg\tw:640 h:852"
+			],
+			[
+				"cloud",
+				"cloud_contrast_enhanced.jpg\tw:3264 h:2448"
+			],
+			[
+				"ar",
+				"article\t<article>"
+			],
+			[
+				"html",
+				"html5\tSimple HTML5 Boilerplate"
+			],
+			[
+				"rec_",
+				"rec_list"
+			],
+			[
+				"rec",
+				"rec_val"
+			],
+			[
+				"ma",
+				"match"
+			],
+			[
+				"app",
+				"apply_even_odd"
+			],
+			[
+				"sqri",
+				"sqr_dist_2"
+			],
+			[
+				"sqr",
+				"sqr_dist_1"
+			],
+			[
+				"slide",
+				"slideList"
+			],
+			[
+				"slid",
+				"slideList"
+			],
+			[
+				"ideal",
+				"idealPriceTextInput"
+			],
+			[
+				"ori",
+				"original_price"
+			],
+			[
+				"componentWil",
+				"componentWillReceiveProps\t(Message.js)"
+			],
+			[
+				"initial",
+				"initialSettings.sagas.js"
+			],
+			[
+				"schoo",
+				"schools\t(User.js)"
+			],
+			[
+				"but",
+				"buttonSelect\t(colors.js)"
+			],
+			[
+				"sele",
+				"selectedState"
+			],
+			[
+				"school",
+				"schoolList"
+			],
+			[
+				"Sc",
+				"SchoolPicker"
+			],
+			[
+				"base",
+				"baseurl"
+			],
+			[
+				"react-nat",
+				"react-native-navigation\t(screen.js)"
+			],
+			[
+				"fir",
+				"first_free"
+			],
+			[
+				"fis",
+				"first_free"
+			],
+			[
+				"crea",
+				"createDate"
+			],
+			[
+				"comm",
+				"comment"
+			],
+			[
+				"post-comm",
+				"post-comment-card"
+			],
+			[
+				"Comm",
+				"CommentsFrag"
+			],
+			[
+				"Lodable",
+				"LoadableComments"
+			],
+			[
+				"namev",
+				"nameValidateMessage"
+			],
+			[
+				"nameVali",
+				"nameValidateMessage"
+			],
+			[
+				"chang",
+				"changing-name-input-form\t(index.js)"
+			],
+			[
+				"chan",
+				"changing-name-input\t(index.js)"
+			],
+			[
+				"sc",
+				"secret"
+			],
+			[
+				"post",
+				"postState"
+			],
+			[
+				"Post",
+				"PostEditor"
+			],
+			[
+				"use",
+				"userId"
+			],
+			[
+				"hea",
+				"headers\t(server.py)"
+			],
+			[
+				"mari",
+				"marginTop\t(Topic.js)"
+			],
+			[
+				"opG",
+				"opTagTex"
+			],
+			[
+				"bor",
+				"borderWidth\t(Topic.js)"
+			],
+			[
+				"sy",
+				"styles"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/logo.svg",
+			"settings":
+			{
+				"buffer_size": 2671,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"trail",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"picker",
+				"Color Picker"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"pre",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"lint",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"latextool st",
+				"LaTeXTools: Show toggles"
+			],
+			[
+				"pretty",
+				"HTMLPrettify: Set Plugin Options"
+			],
+			[
+				"disable lin",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"edit",
+				"Project: Edit"
+			],
+			[
+				"build",
+				"Build With: ICML"
+			],
+			[
+				"project",
+				"Project: Edit Project"
+			],
+			[
+				"save proje",
+				"Project: Save As"
+			],
+			[
+				"markdownprevpre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdownprev",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"form",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"anaconda for",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"formafo",
+				"Clang Format: Format Selection"
+			],
+			[
+				"forma",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"prettpretty",
+				"HTMLPrettify: Set Prettify Preferences"
+			],
+			[
+				"ocam",
+				"Set Syntax: OCaml"
+			],
+			[
+				"ocaml",
+				"Set Syntax: OCamlyacc"
+			],
+			[
+				"ocamll",
+				"Set Syntax: OCamllex"
+			],
+			[
+				"cfg",
+				"Set Syntax: CFG Game Configuration"
+			],
+			[
+				"clang",
+				"Clang Format: Select Style"
+			],
+			[
+				"ui",
+				"UI: Select Theme"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"syntax",
+				"Set Syntax: Ruby"
+			],
+			[
+				"join",
+				"Floobits - Join Workspace"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"term",
+				"Terminal: Open"
+			],
+			[
+				"ter",
+				"Terminal: Open"
+			],
+			[
+				"build with",
+				"Build With: LaTeX - XeLaTeX"
+			],
+			[
+				"build ",
+				"Build With: LaTeX - XeLaTeX"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"jspree",
+				"Preferences: JsPrettier Settings - User"
+			],
+			[
+				"js",
+				"Preferences: JsPrettier Settings - User"
+			],
+			[
+				"jsprett",
+				"Preferences: JsPrettier Settings - Default"
+			],
+			[
+				"color sch",
+				"UI: Select Color Scheme"
+			],
+			[
+				"te",
+				"Terminal: Open"
+			],
+			[
+				"termi",
+				"Terminal: Open"
+			],
+			[
+				"tra",
+				"Trailing Spaces: Toggle Trailing Spaces Highlighting"
+			],
+			[
+				"trailin",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"the",
+				"UI: Select Theme"
+			],
+			[
+				"colo",
+				"Color Picker"
+			],
+			[
+				"eslint",
+				"Build With: ESLint"
+			],
+			[
+				"termin",
+				"Terminal: Open"
+			],
+			[
+				"col",
+				"Color Picker"
+			],
+			[
+				"de",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"trailing",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"trai",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"markdown preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"open",
+				"Terminal: Open"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"syntax vue",
+				"Set Syntax: Vue Component"
+			],
+			[
+				"insatll",
+				"Package Control: Install Package"
+			],
+			[
+				"color s",
+				"UI: Select Color Scheme"
+			],
+			[
+				"mati",
+				"Material Theme: Configuration"
+			],
+			[
+				"materia",
+				"Material Theme: Configuration"
+			],
+			[
+				"pandoc",
+				"Pandoc"
+			],
+			[
+				"pando",
+				"Pandoc"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"uninstal",
+				"Plugin Development: Convert Syntax to .sublime-syntax"
+			],
+			[
+				"sftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"previ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"te rmi",
+				"Terminal: Open"
+			],
+			[
+				"sft",
+				"SFTP: Browse Server…"
+			],
+			[
+				"ana for",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"br",
+				"Preferences: Browse Packages"
+			],
+			[
+				"sf",
+				"SFTP: Edit Server…"
+			],
+			[
+				"sftp bro",
+				"SFTP: Browse Server…"
+			],
+			[
+				"bro",
+				"Preferences: Browse Packages"
+			],
+			[
+				"sftp b",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sftp sett",
+				"Preferences: SFTP Settings"
+			],
+			[
+				"ui them",
+				"UI: Select Color Scheme"
+			],
+			[
+				"remove pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"g l a",
+				"BracketHighlighter: Toggle Global Enable"
+			],
+			[
+				"mate",
+				"Material Theme: Advanced configuration"
+			],
+			[
+				"sub l",
+				"SublimeREPL: ABCL"
+			],
+			[
+				"material",
+				"Material Theme: Extras"
+			],
+			[
+				"packageresou",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"task",
+				"Tasks: Complete"
+			],
+			[
+				"syntax ta",
+				"Set Syntax: Tasks"
+			],
+			[
+				"syntax pug",
+				"Set Syntax: Pug"
+			],
+			[
+				"orgmode",
+				"Preferences: orgmode Settings – Default"
+			],
+			[
+				"pretti",
+				"HTMLPrettify"
+			],
+			[
+				"syn",
+				"Set Syntax: NAnt Build File"
+			],
+			[
+				"delete",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"",
+				"Anaconda: Vagrant Enable"
+			],
+			[
+				"format",
+				"Clang Format: Format Selection"
+			],
+			[
+				"dele",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"diff",
+				"FileDiffs: Menu"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"FOR",
+				"Clang Format: Format Selection"
+			],
+			[
+				"r m",
+				"Preferences: MarkdownEditing Settings – Default"
+			],
+			[
+				"key ",
+				"Preferences: Key Bindings"
+			],
+			[
+				"insatl",
+				"Package Control: Install Package"
+			],
+			[
+				"anaconda forma",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"dis",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"disabl",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"linting",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"prev",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"re mo",
+				"Package Control: Remove Package"
+			],
+			[
+				"disa",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"PREVEI",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"PREV",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"m",
+				"Set Syntax: Markdown"
+			],
+			[
+				"ma",
+				"Set Syntax: Markdown"
+			],
+			[
+				"plai",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"plain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"chec",
+				"LaTeXTools: Check system"
+			],
+			[
+				"check",
+				"LaTeXTools: Check system"
+			]
+		],
+		"width": 783.0
+	},
+	"console":
+	{
+		"height": 427.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/horizon/GitHub/jogchat_react_frontend_v2/src"
+	],
+	"file_history":
+	[
+		"/Users/horizon/GitHub/cs242/Final/tracing.sublime-project",
+		"/Users/horizon/GitHub/cs242/Final/package.json",
+		"/Users/horizon/GitHub/cs242/Final/src/client.js",
+		"/Users/horizon/GitHub/cs242/Final/src/__tests__/Account.js",
+		"/Users/horizon/GitHub/cs242/Final/src/__tests__/Login.js",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Account/EditAccount.js",
+		"/Users/horizon/GitHub/profile/package.json",
+		"/Users/horizon/.zshrc",
+		"/Users/horizon/GitHub/cs242-sp18/server/app.py",
+		"/Users/horizon/GitHub/thehorizon.blue/server/server.py",
+		"/Users/horizon/GitHub/thehorizon.blue/server/app.py",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Blog/BlogPost.js",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Translated/translations/zh-cn.js",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Translated/translations/en.js",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Account/AccountHome.js",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Account/index.js",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Blog/index.js",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Translated/index.js",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Account/index.less",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Blog/BlogList.js",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Blog/BlogListItem.js",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Blog/index.less",
+		"/Users/horizon/GitHub/cs242/Final/src/index.less",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Account/Editor.js",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Blog/Comments.js",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Blog/BlogHome.js",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Login/index.js",
+		"/Users/horizon/GitHub/cs242/Final/src/store/index.js",
+		"/Users/horizon/GitHub/cs242/Final/src/store/reducers/locale.js",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Blog/BlogContent.js",
+		"/Users/horizon/GitHub/cs242/Final/src/views/DateView.js",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Translated/translations/index.js",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Nav/index.js",
+		"/Users/horizon/GitHub/cs242/Final/node_modules/react-redux/es/components/connectAdvanced.js",
+		"/Users/horizon/GitHub/cs242/Final/src/__tests__/BlogPost.js",
+		"/Users/horizon/GitHub/cs242/Final/manual/README.md",
+		"/Users/horizon/OneDrive - University of Illinois - Urbana/UIUC/Courses/CS 210/presenation/outline",
+		"/Users/horizon/GitHub/assignments/uiuc/cs242/manual/README.md",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Translated/translations/zh.js",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Login/index.less",
+		"/Users/horizon/GitHub/cs242/Final/src/store/reducers/token.js",
+		"/Users/horizon/GitHub/cs242/Final/src/actions.js",
+		"/Users/horizon/GitHub/cs242/Final/src/store/reducers/index.js",
+		"/Users/horizon/GitHub/cs242/Final/src/App.js",
+		"/Users/horizon/GitHub/cs242/Final/src/views/index.js",
+		"/Users/horizon/GitHub/cs242/Final/src/setupTests.js",
+		"/Users/horizon/GitHub/cs242/Final/src/store/initialState.js",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Header/index.js",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Nav/index.less",
+		"/Users/horizon/GitHub/cs242/Final/src/store/reducers/translator/index.js",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Header/index.less",
+		"/Users/horizon/GitHub/cs242/Final/src/__tests__/BlogList.js",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Blog/CommentItem.js",
+		"/Users/horizon/GitHub/cs242/Assignment3/package.json",
+		"/Users/horizon/GitHub/cs242/Final/src/__tests__/App.js",
+		"/Users/horizon/GitHub/cs242/Final/src/index.js",
+		"/Users/horizon/GitHub/cs242/Final/config-overrides.js",
+		"/Users/horizon/GitHub/cs242/final_proposal/proposal.tex",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Header/assets/gear1.svg",
+		"/Users/horizon/GitHub/cs242/Final/src/utils/random.js",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Blog/prism-atom-dark.css",
+		"/Users/horizon/GitHub/cs242/Final/src/store/reducers/translator/en.js",
+		"/Users/horizon/GitHub/cs242/Final/src/store/reducers/translator/zh.js",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Translated/languages/en.js",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Translated/languages/zh.js",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Translated/languages/index.js",
+		"/Users/horizon/GitHub/cs242/Final/src/views/About.js",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Home.js",
+		"/Users/horizon/GitHub/cs242/Final/manual/.gitignore",
+		"/Users/horizon/GitHub/cs242/Final/public/index.html",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Nav/index.css",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Blog/posts/foo-bar.md",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Blog/posts",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Blog/prism-duotone-sea.css",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Blog/index.css",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Blog/PostPage.js",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Header/index.css",
+		"/Users/horizon/GitHub/cs242/Final/src/index.css",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Nav.js",
+		"/Users/horizon/Library/Application Support/Sublime Text 3/Packages/JsPrettier/JsPrettier.sublime-settings",
+		"/Users/horizon/GitHub/cs242/Final/.gitignore",
+		"/Users/horizon/GitHub/cs242/Final/src/store/reducers/translator/languages.js",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Translated.js",
+		"/Users/horizon/GitHub/cs242/Final/src/actionTypes.js",
+		"/Users/horizon/GitHub/cs242/Final/src/store/reducers/translator",
+		"/Users/horizon/GitHub/cs242/Final/src/store/reducers/translation/en.js",
+		"/Users/horizon/GitHub/cs242/Final/src/store/reducers/initialState.js",
+		"/Users/horizon/GitHub/cs242/Final/src/views/Header/assets/gear2.svg",
+		"/Users/horizon/GitHub/cs242/Final/src/store",
+		"/Users/horizon/GitHub/cs242/Final/src/views/layouts/Header.js",
+		"/Users/horizon/GitHub/cs242/Final/.eslintrc",
+		"/Users/horizon/GitHub/cs242/Final/src/App.css",
+		"/Users/horizon/GitHub/thehorizon.blue/public/index.html",
+		"/Users/horizon/GitHub/cs242/Assignment3/.eslintrc",
+		"/Users/horizon/Library/Application Support/Sublime Text 3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+		"/Users/horizon/Library/Application Support/Sublime Text 3/Packages/ColorPicker/ColorPicker.sublime-settings",
+		"/Users/horizon/Library/Application Support/Sublime Text 3/Packages/User/ColorPicker.sublime-settings",
+		"/Users/horizon/GitHub/cs242/Final/foo.html",
+		"/Users/horizon/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/Users/horizon/Library/Application Support/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/Users/horizon/Library/Application Support/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/Users/horizon/Library/Application Support/Sublime Text 3/Packages/User/SublimeOnSaveBuild.sublime-settings",
+		"/Users/horizon/Library/Application Support/Sublime Text 3/Packages/User/ESLint.sublime-settings",
+		"/Users/horizon/Library/Application Support/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/Users/horizon/GitHub/AQuA-solver/data/train.tok.json",
+		"/Users/horizon/GitHub/AQuA-solver/data/dev.tok.json",
+		"/Users/horizon/GitHub/pytorch-seq2seq/seq2seq/models/baseRNN.py",
+		"/usr/local/lib/python3.6/site-packages/torch/nn/utils/rnn.py",
+		"/Users/horizon/GitHub/pytorch-seq2seq/seq2seq/models/EncoderRNN.py",
+		"/Users/horizon/GitHub/pytorch-seq2seq/seq2seq/models/attention.py",
+		"/Users/horizon/GitHub/pytorch-seq2seq/seq2seq/models/DecoderRNN.py",
+		"/Users/horizon/GitHub/pytorch-seq2seq/seq2seq/dataset/fields.py",
+		"/Users/horizon/GitHub/pytorch-seq2seq/seq2seq/models/seq2seq.py",
+		"/usr/local/lib/python3.6/site-packages/torchtext/data/field.py",
+		"/Users/horizon/GitHub/AQuA-solver/data/dev.json",
+		"/Users/horizon/GitHub/pytorch-seq2seq/seq2seq/loss/loss.py",
+		"/Users/horizon/GitHub/AQuA-solver/transform_data.py",
+		"/Users/horizon/GitHub/pytorch-seq2seq/seq2seq/trainer/supervised_trainer.py",
+		"/Users/horizon/GitHub/pytorch-seq2seq/examples/sample.py",
+		"/Users/horizon/GitHub/AQuA-solver/parse_data.py",
+		"/Users/horizon/GitHub/AQuA-solver/basic.py",
+		"/Users/horizon/GitHub/pytorch-seq2seq/,",
+		"/Users/horizon/foo/cs242-sp18/README.md",
+		"/Users/horizon/GitHub/cs242/final_proposal/proposal.t",
+		"/Users/horizon/.zshrls",
+		"/Users/horizon/foo/templates.yaml",
+		"/Users/horizon/GitHub/playground/Solutions-to-OJs/USACO/Chapter2/2.3/02_cow_pedigrees.cpp",
+		"/Users/horizon/GitHub/playground/Solutions-to-OJs/USACO/Chapter2/2.3/01_longest_prefix.cpp"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/logo.svg",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2671,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": 177,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"git_gutter_is_enabled": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/zzz A File Icon zzz/aliases/XML (SVG).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 65.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "jogchat.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 176.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
