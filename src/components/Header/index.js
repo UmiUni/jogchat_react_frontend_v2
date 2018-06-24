@@ -1,17 +1,29 @@
 import React, { PureComponent } from 'react';
-import { Layout, Menu } from 'antd';
-import './index.css';
+import {
+  Navbar,
+  Alignment,
+  Button,
+  NavbarGroup,
+  NavbarHeading,
+  NavbarDivider,
+} from '@blueprintjs/core';
 
 class Header extends PureComponent {
   render() {
     return (
-      <Layout.Header>
-        <Menu theme="dark" mode="horizontal" className="header-menu">
-          <Menu.Item key="1">nav 1</Menu.Item>
-          <Menu.Item key="2">nav 2</Menu.Item>
-          <Menu.Item key="3">nav 3</Menu.Item>
-        </Menu>
-      </Layout.Header>
+      <Navbar className="pt-dark">
+        <NavbarGroup align={Alignment.LEFT}>
+          <NavbarHeading>JogChat</NavbarHeading>
+          <input className="pt-input" placeholder="Search..." type="text" />
+        </NavbarGroup>
+        <NavbarGroup align={Alignment.RIGHT}>
+          <Button minimal icon="home" text="Home" />
+          <NavbarDivider />
+          <Button minimal icon="user" />
+          <Button minimal icon="notifications" />
+          <Button minimal icon="cog" />
+        </NavbarGroup>
+      </Navbar>
     );
   }
 }

@@ -4,25 +4,24 @@
   "author": "Xiaoyan Wang <horizonblueblueblue@gmail.com>",
   "private": true,
   "dependencies": {
-    "antd": "^3.6.1",
+    "@blueprintjs/core": "^2.3.1",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.4",
+    "react-transition-group": "^2.3.1",
     "redux": "^4.0.0"
   },
   "scripts": {
-    "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
-    "test": "react-app-rewired test --env=jsdom",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "babel-plugin-import": "^1.7.0",
     "eslint": "^4.19.1",
     "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.8.2",
-    "react-app-rewired": "^1.5.2"
+    "eslint-plugin-react": "^7.8.2"
   }
 }

@@ -1,20 +1,18 @@
 import React, { PureComponent } from 'react';
-import { Layout, Menu } from 'antd';
+import { Menu, MenuItem } from '@blueprintjs/core';
 import { withRouter } from 'react-router-dom';
+import './index.css';
 
 class Sidebar extends PureComponent {
   render() {
     return (
-      <Layout.Sider theme="light" breakpoint="lg" collapsedWidth={0}>
-        <Menu
-          mode="inline"
-          // selectedKeys={[this.props.location.pathname.split('/')[1] || 'home']}
-        >
-          <Menu.Item key="home">微信扫码进群</Menu.Item>
-          <Menu.Item key="2">nav 2</Menu.Item>
-          <Menu.Item key="3">nav 3</Menu.Item>
-        </Menu>
-      </Layout.Sider>
+      <Menu className="sidebar">
+        <MenuItem icon="chat" text="微信扫码进群" />
+        <MenuItem icon="feed" text="美国华人周报" />
+        <MenuItem icon="flag" text="hard-code没问题吗" />
+        <MenuItem icon="people" text="我不管了" />
+        <MenuItem icon="map" text="先这样吧" />
+      </Menu>
     );
   }
 }

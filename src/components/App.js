@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Layout } from 'antd';
 import { Provider } from 'react-redux';
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
 import store from '../store';
@@ -12,19 +11,15 @@ class App extends Component {
     return (
       <Provider store={store}>
         <BrowserRouter>
-          <Layout>
+          <div>
             <Header />
-            <Layout hasSider>
+            <div className="main-view">
               <Sidebar />
-              <Layout className="app-content">
-                <Layout.Content>
-                  <Switch>
-                    <Route exact path="/" component={Home} />
-                  </Switch>
-                </Layout.Content>
-              </Layout>
-            </Layout>
-          </Layout>
+              <Switch>
+                <Route exact path="/" component={Home} />
+              </Switch>
+            </div>
+          </div>
         </BrowserRouter>
       </Provider>
     );
