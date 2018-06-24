@@ -16,7 +16,7 @@ class Header extends PureComponent<Props> {
       <Navbar className="pt-dark">
         <NavbarGroup align={Alignment.LEFT}>
           <NavbarHeading>JogChat</NavbarHeading>
-          <input className="pt-input" placeholder="Search..." type="text" />
+          {/* <input className="pt-input" placeholder="Search..." type="text" /> */}
         </NavbarGroup>
         {/* <NavbarGroup align={Alignment.RIGHT}>
           <Button minimal icon="home" text="Home" />
