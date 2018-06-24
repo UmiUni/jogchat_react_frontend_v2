@@ -1,0 +1,19 @@
+[ignore]
+.*/node_modules/.*/node_modules/fbjs/.*
+
+[include]
+
+[libs]
+flow-typed/
+
+[lints]
+
+[options]
+module.system=haste
+
+module.file_ext=.js
+
+module.name_mapper='^components' -> '<PROJECT_ROOT>/src/components'
+module.name_mapper='.*\(.css\)' -> 'CSSModule'
+
+[strict]

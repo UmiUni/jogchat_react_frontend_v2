@@ -1,10 +1,14 @@
-import React, { PureComponent } from 'react';
-import { Menu, MenuItem } from '@blueprintjs/core';
-import { withRouter } from 'react-router-dom';
-import './index.css';
+/* @flow */
 
-class Sidebar extends PureComponent {
-  render() {
+import './index.css';
+import { Menu, MenuItem } from '@blueprintjs/core';
+import React, { PureComponent } from 'react';
+import { withRouter } from 'react-router-dom';
+
+type Props = {||};
+
+class Sidebar extends PureComponent<Props> {
+  render (): React$Node {
     return (
       <Menu className="sidebar">
         <MenuItem icon="chat" text="微信扫码进群" />

@@ -1,16 +1,116 @@
 {
   "parser": "babel-eslint",
-  "plugins": ["react", "jsx-a11y"],
+  "parserOptions": {
+      "ecmaFeatures": {
+          "experimentalObjectRestSpread": true,
+          "jsx": true
+      },
+      "sourceType": "module"
+  },
+  "plugins": ["react", "flowtype", "jsx-a11y"],
   "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:jsx-a11y/recommended"],
   "rules": {
     "react/jsx-pascal-case": "error",
     "react/jsx-wrap-multilines": "error",
     "react/jsx-closing-bracket-location": "error",
     "react/sort-comp": "error",
-    "jsx-quotes": ["error", "prefer-double"]
+    "jsx-quotes": ["error", "prefer-double"],
+    "indent": [ "error", 2, { "SwitchCase": 1 } ],
+    "linebreak-style": [
+        "error",
+        "unix"
+    ],
+    "quotes": [
+        "error",
+        "single"
+    ],
+    "semi": [
+        "error",
+        "always"
+    ],
+    "space-before-function-paren": [ "error", "always" ],
+    "no-console": [ "error", { "allow": [ "warn", "error" ] } ],
+    "keyword-spacing": [ "error", { "before": true, "after": true } ],
+    "arrow-spacing": [ "error", { "before": true, "after": true } ],
+    "block-spacing": [ "error", "always" ],
+    "array-bracket-spacing": [ "error", "always" ],
+    "object-curly-spacing": [ "error", "always" ],
+    "comma-spacing": [ "error", { "before": false, "after": true } ],
+    "key-spacing": [ "error", { "beforeColon": false, "afterColon": true, "mode": "strict" } ],
+    "space-before-blocks": [ "error", "always" ],
+    "prefer-const": [ "warn", {
+        "destructuring": "any",
+        "ignoreReadBeforeAssign": false
+    } ],
+    "no-duplicate-imports": [ "error", { "includeExports": true } ],
+    "sort-imports": ["error", {
+        "ignoreCase": true,
+        "ignoreMemberSort": false,
+        "memberSyntaxSortOrder": ["none", "all", "multiple", "single"]
+    }],
+    "flowtype/boolean-style": [
+      2,
+      "boolean"
+    ],
+    "flowtype/define-flow-type": 1,
+    "flowtype/delimiter-dangle": [
+      2,
+      "never"
+    ],
+    "flowtype/generic-spacing": [
+      2,
+      "never"
+    ],
+    "flowtype/no-primitive-constructor-types": 2,
+    "flowtype/no-types-missing-file-annotation": 2,
+    "flowtype/no-weak-types": 0,
+    "flowtype/object-type-delimiter": [
+      2,
+      "comma"
+    ],
+    "flowtype/require-parameter-type": 2,
+    "flowtype/require-return-type": [
+      2,
+      "always",
+      {
+        "annotateUndefined": "never"
+      }
+    ],
+    "flowtype/require-valid-file-annotation": 2,
+    "flowtype/semi": [
+      2,
+      "always"
+    ],
+    "flowtype/space-after-type-colon": [
+      2,
+      "always"
+    ],
+    "flowtype/space-before-generic-bracket": [
+      2,
+      "never"
+    ],
+    "flowtype/space-before-type-colon": [
+      2,
+      "never"
+    ],
+    "flowtype/type-id-match": [
+      2,
+      "^([A-Z][a-z0-9]+)+Type|Props|State$"
+    ],
+    "flowtype/union-intersection-spacing": [
+      2,
+      "always"
+    ],
+    "flowtype/use-flow-type": 1,
+    "flowtype/valid-syntax": 1
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-module": {}
+    }
   },
   "env": {
     "browser": true,
     "node": true
-  },
+  }
 }

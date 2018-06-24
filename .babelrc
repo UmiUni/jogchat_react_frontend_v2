@@ -1,0 +1,20 @@
+{
+  "presets": ["react-app", "flow"],
+  "env": {
+    "development": {
+      "plugins": ["transform-react-jsx-source"]
+    }
+  },
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "extensions": [".js"],
+        "alias": {
+          "flow-typed": "./flow-typed",
+        }
+      }
+    ]
+  ]
+}

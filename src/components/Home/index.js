@@ -1,7 +1,11 @@
+/* @flow */
+
 import React, { PureComponent } from 'react';
 
-class Home extends PureComponent {
-  render() {
+type Props = {||};
+
+class Home extends PureComponent<Props> {
+  render (): React$Node {
     return <div>Hello world</div>;
   }
 }

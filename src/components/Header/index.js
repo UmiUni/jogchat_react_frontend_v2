@@ -1,28 +1,30 @@
-import React, { PureComponent } from 'react';
+/* @flow */
+
 import {
-  Navbar,
   Alignment,
-  Button,
+  Navbar,
   NavbarGroup,
   NavbarHeading,
-  NavbarDivider,
 } from '@blueprintjs/core';
+import React, { PureComponent } from 'react';
 
-class Header extends PureComponent {
-  render() {
+type Props = {||};
+
+class Header extends PureComponent<Props> {
+  render (): React$Node {
     return (
       <Navbar className="pt-dark">
         <NavbarGroup align={Alignment.LEFT}>
           <NavbarHeading>JogChat</NavbarHeading>
           <input className="pt-input" placeholder="Search..." type="text" />
         </NavbarGroup>
-        <NavbarGroup align={Alignment.RIGHT}>
+        {/* <NavbarGroup align={Alignment.RIGHT}>
           <Button minimal icon="home" text="Home" />
           <NavbarDivider />
           <Button minimal icon="user" />
           <Button minimal icon="notifications" />
           <Button minimal icon="cog" />
-        </NavbarGroup>
+        </NavbarGroup> */}
       </Navbar>
     );
   }
