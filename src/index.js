@@ -6,6 +6,7 @@ import { ConnectedRouter, connectRouter, routerMiddleware } from 'connected-reac
 import App from './App';
 import { AppContainer } from 'react-hot-loader';
 import { createBrowserHistory } from 'history';
+import createSagaMiddleware from 'redux-saga';
 import { Map } from 'immutable';
 import type { ModuleHot } from 'flow-typed';
 import { Provider } from 'react-redux';
@@ -20,11 +21,14 @@ export const history = createBrowserHistory();
 
 const initialState = Map();
 
+const sagaMiddleware = createSagaMiddleware();
+
 export const store = createStore(
   connectRouter(history)(rootReducer),
   initialState,
   composeEnhancer(
     applyMiddleware(
+      sagaMiddleware,
       routerMiddleware(history),
     ),
   ),
