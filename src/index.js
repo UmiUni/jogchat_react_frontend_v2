@@ -1,13 +1,10 @@
 /* @flow */
 
 import 'index.css';
-import { applyMiddleware, compose, createStore } from 'redux';
-import { ConnectedRouter, connectRouter, routerMiddleware } from 'connected-react-router/immutable';
+import { ConnectedRouter, connectRouter } from 'connected-react-router/immutable';
+import { history, store } from 'store';
 import App from './App';
 import { AppContainer } from 'react-hot-loader';
-import { createBrowserHistory } from 'history';
-import createSagaMiddleware from 'redux-saga';
-import { Map } from 'immutable';
 import type { ModuleHot } from 'flow-typed';
 import { Provider } from 'react-redux';
 import React from 'react';
@@ -15,24 +12,6 @@ import ReactDOM from 'react-dom';
 import registerServiceWorker from './registerServiceWorker';
 import rootReducer from './reducers';
 
-const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
-
-export const history = createBrowserHistory();
-
-const initialState = Map();
-
-const sagaMiddleware = createSagaMiddleware();
-
-export const store = createStore(
-  connectRouter(history)(rootReducer),
-  initialState,
-  composeEnhancer(
-    applyMiddleware(
-      sagaMiddleware,
-      routerMiddleware(history),
-    ),
-  ),
-);
 
 const render = () => {
   ReactDOM.render(

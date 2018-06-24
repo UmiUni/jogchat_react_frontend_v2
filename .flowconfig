@@ -15,6 +15,7 @@ module.system=haste
 module.file_ext=.js
 
 module.name_mapper='^components' -> '<PROJECT_ROOT>/src/components'
+module.name_mapper='^store' -> '<PROJECT_ROOT>/src/store'
 module.name_mapper='.*\(.css\)' -> 'CSSModule'
 
 [strict]
