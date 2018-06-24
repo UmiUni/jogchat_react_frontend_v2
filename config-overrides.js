@@ -1,9 +1,12 @@
+/* eslint-disable */
+
 const { injectBabelPlugin } = require('react-app-rewired');
-const babelConfig = require('.babelrc');
+// $FlowFixMe
+const babelConfig = require('./.babelrc.json');
 
 module.exports = function override ( config ) {
   config = injectBabelPlugin(
-    babelConfig.plugins,
+    babelConfig.plugins[0],
     config
   );
   return config;

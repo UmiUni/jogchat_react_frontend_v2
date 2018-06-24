@@ -12,7 +12,7 @@
         "root": ["./src"],
         "extensions": [".js"],
         "alias": {
-          "flow-typed": "./flow-typed",
+          "flow-typed": "./flow-typed"
         }
       }
     ]
