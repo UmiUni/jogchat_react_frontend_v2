@@ -6,6 +6,13 @@
     }
   },
   "plugins": [
+    "syntax-dynamic-import",
+    [
+      "import-inspector",
+      {
+        "serverSideRequirePath": true
+      }
+    ],
     [
       "module-resolver",
       {

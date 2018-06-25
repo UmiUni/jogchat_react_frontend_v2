@@ -1,12 +1,13 @@
 // @flow
 
 import React, { Component } from 'react';
-import { Route, Switch } from 'react-router-dom';
 import Header from 'components/Header';
-import Home from 'components/Home';
+import { renderRoutes } from 'react-router-config';
 import Sidebar from 'components/Sidebar';
 
-type Props = {||};
+type Props = {|
+  route: any,
+|};
 
 class App extends Component<Props> {
   render (): React$Node {
@@ -15,9 +16,7 @@ class App extends Component<Props> {
         <Header />
         <div className="main-view">
           <Sidebar />
-          <Switch>
-            <Route exact path="/" component={Home} />
-          </Switch>
+          { renderRoutes(this.props.route.routes) }
         </div>
       </div>
     );
