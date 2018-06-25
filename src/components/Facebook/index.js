@@ -6,7 +6,7 @@ type Props = {||};
 
 class Facebook extends React.PureComponent<Props> {
   render (): React$Node {
-    return <div>Hello world</div>;
+    return <div>Facebook</div>;
   }
 }
 

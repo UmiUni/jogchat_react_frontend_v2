@@ -8,18 +8,19 @@ const loadComponent = (fn: () => Promise<Object>): any => Loadable({
   loading: (): any => null,
 });
 
-const routes = [
-  { component: App,
-    routes: [
-      { path: '/',
-        exact: true,
-        component: loadComponent((): Promise<Object> => import('./components/Home')),
-      },
-      { path: '/home',
-        component: loadComponent((): Promise<Object> => import('./components/Home')),
-      }
-    ]
-  }
-];
+const routes = [ {
+  component: App,
+  routes: [ {
+    path: '/',
+    exact: true,
+    component: loadComponent((): Promise<Object> => import('components/Home')),
+  }, {
+    path: '/home',
+    component: loadComponent((): Promise<Object> => import('components/Home')),
+  }, {
+    path: '/facebook',
+    component: loadComponent((): Promise<Object> => import('components/Facebook')),
+  } ]
+} ];
 
 export default routes;
