@@ -1,30 +1,43 @@
 /* @flow */
 
 import './index.css';
-import { Menu, MenuItem } from '@blueprintjs/core';
 import React, { PureComponent } from 'react';
+import { Link } from 'react-router-dom';
+import { Menu } from '@blueprintjs/core';
 import { push } from 'connected-react-router';
 import { store } from 'store';
-import { withRouter } from 'react-router-dom';
 
 type Props = {||};
 
 class Sidebar extends PureComponent<Props> {
   dispatchNavigation = () => {
     store.dispatch(push('test'));
-  }
+  };
 
   render (): React$Node {
     return (
       <Menu className="sidebar">
-        <MenuItem icon="chat" text="微信扫码进群" onClick={this.dispatchNavigation} />
-        <MenuItem icon="feed" text="美国华人周报" />
-        <MenuItem icon="flag" text="hard-code没问题吗" />
-        <MenuItem icon="people" text="我不管了" />
-        <MenuItem icon="map" text="先这样吧" />
+        <Link className="pt-menu-item pt-icon-flag" to="/facebook">
+          加Facebook地区群
+        </Link>
+        <Link className="pt-menu-item pt-icon-chat" to="/">
+          微信扫码进群
+        </Link>
+        <Link className="pt-menu-item pt-icon-feed" to="/">
+          美国华人周报
+        </Link>
+        <Link className="pt-menu-item pt-icon-code" to="/">
+          硅谷面试刷题
+        </Link>
+        <Link className="pt-menu-item pt-icon-people" to="/">
+          股市Trading技术
+        </Link>
+        <Link className="pt-menu-item pt-icon-map" to="/partners">
+          合作伙伴
+        </Link>
       </Menu>
     );
   }
 }
 
-export default withRouter(Sidebar);
+export default Sidebar;
