@@ -2,15 +2,32 @@
 
 import {
   Alignment,
+  Button,
   Navbar,
   NavbarGroup,
   NavbarHeading,
+  Popover,
+  PopoverInteractionKind,
+  Position
 } from '@blueprintjs/core';
 import React, { PureComponent } from 'react';
+import Login from 'components/Login';
 
 type Props = {||};
 
-class Header extends PureComponent<Props> {
+type State = {|
+  isLoginPanelOpen: boolean
+|};
+
+class Header extends PureComponent<Props, State> {
+  state = {
+    isLoginPanelOpen: false,
+  }
+
+  _handleInteraction = (nextOpenState: boolean) => {
+    this.setState({ isLoginPanelOpen: nextOpenState });
+  }
+
   render (): React$Node {
     return (
       <Navbar className="pt-dark">
@@ -18,13 +35,17 @@ class Header extends PureComponent<Props> {
           <NavbarHeading>JogChat</NavbarHeading>
           {/* <input className="pt-input" placeholder="Search..." type="text" /> */}
         </NavbarGroup>
-        {/* <NavbarGroup align={Alignment.RIGHT}>
-          <Button minimal icon="home" text="Home" />
-          <NavbarDivider />
-          <Button minimal icon="user" />
-          <Button minimal icon="notifications" />
-          <Button minimal icon="cog" />
-        </NavbarGroup> */}
+        <NavbarGroup align={Alignment.RIGHT}>
+          <Popover
+            content={<Login />}
+            interactionKind={PopoverInteractionKind.CLICK}
+            isOpen={this.state.isLoginPanelOpen}
+            onInteraction={this._handleInteraction}
+            position={Position.BOTTOM_RIGHT}
+          >
+            <Button minimal icon="user" />
+          </Popover>
+        </NavbarGroup>
       </Navbar>
     );
   }

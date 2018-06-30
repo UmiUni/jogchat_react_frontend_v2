@@ -22,7 +22,11 @@
     "react-transition-group": "^2.3.1",
     "recompose": "^0.27.1",
     "redux": "^4.0.0",
+    "redux-api-middleware": "^2.3.0",
     "redux-immutable": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^5.10.0",
+    "redux-persist-transform-immutable": "^5.0.0",
     "redux-saga": "^0.16.0"
   },
   "scripts": {
