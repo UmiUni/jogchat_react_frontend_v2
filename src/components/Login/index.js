@@ -1,13 +1,9 @@
 /* @flow */
 
-import {
-  Button,
-  ControlGroup,
-  InputGroup
-} from '@blueprintjs/core';
+import { Button, ControlGroup, InputGroup } from '@blueprintjs/core';
 import { Field, reduxForm } from 'redux-form';
 import React, { PureComponent } from 'react';
-import { generateBlueprintInputPropsFromReduxFormProps } from 'utils';
+import Input from './Input';
 import { login } from 'actions/auth';
 
 type Props = {|
@@ -21,7 +17,7 @@ type State = {|
 export class Login extends PureComponent<Props, State> {
   state = {
     isLoginPanelOpen: false,
-  }
+  };
 
   render (): React$Node {
     const { handleSubmit } = this.props;
@@ -30,22 +26,26 @@ export class Login extends PureComponent<Props, State> {
       <form onSubmit={submit}>
         <ControlGroup fill={true} vertical={true}>
           <Field
-            component={(props: any): React$Node => (
-              <InputGroup {...generateBlueprintInputPropsFromReduxFormProps(props)}
-                large leftIcon="person" placeholder="Username"
-              />
-            )}
-            name="Username" type="text" placeholder="Username"
+            component={Input}
+            render={InputGroup}
+            name="Username"
+            type="text"
+            placeholder="Username"
+            leftIcon="person"
+            large
           />
           <Field
-            component={(props: any): React$Node => (
-              <InputGroup {...generateBlueprintInputPropsFromReduxFormProps(props)}
-                large leftIcon="lock" placeholder="Password" type="password"
-              />
-            )}
-            name="Password" type="password" placeholder="Password"
+            component={Input}
+            render={InputGroup}
+            name="Password"
+            leftIcon="lock"
+            placeholder="Password"
+            type="password"
+            large
           />
-          <Button large type="submit">Login</Button>
+          <Button large type="submit">
+            Login
+          </Button>
           <Button>Register</Button>
         </ControlGroup>
       </form>
