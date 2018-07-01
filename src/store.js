@@ -3,11 +3,11 @@
 import 'index.css';
 import { applyMiddleware, compose, createStore } from 'redux';
 import { connectRouter, routerMiddleware } from 'connected-react-router';
+import createSagaMiddleware, { type Saga } from 'redux-saga';
 import { persistReducer, persistStore } from 'redux-persist';
 import { apiMiddleware } from 'redux-api-middleware';
 import { createBrowserHistory } from 'history';
 import { createLogger } from 'redux-logger';
-import createSagaMiddleware from 'redux-saga';
 import formActionSaga from 'redux-form-saga';
 import Immutable from 'immutable';
 import immutableTransform from 'redux-persist-transform-immutable';
@@ -61,7 +61,8 @@ export const store = createStore(
 const sagas = [
   formActionSaga
 ];
-sagas.forEach((saga) => {
+sagas.forEach((saga: Saga<*>) => {
+  // $FlowFixMe
   sagaMiddleware.run(saga);
 });
 
