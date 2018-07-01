@@ -18,6 +18,7 @@ module.name_mapper='^actions' -> '<PROJECT_ROOT>/src/actions'
 module.name_mapper='^reducers' -> '<PROJECT_ROOT>/src/reducers'
 module.name_mapper='^components' -> '<PROJECT_ROOT>/src/components'
 module.name_mapper='^store' -> '<PROJECT_ROOT>/src/store'
+module.name_mapper='^utils' -> '<PROJECT_ROOT>/src/utils'
 module.name_mapper='.*\(.css\)' -> 'CSSModule'
 
 [strict]

@@ -8,6 +8,7 @@ import { apiMiddleware } from 'redux-api-middleware';
 import { createBrowserHistory } from 'history';
 import { createLogger } from 'redux-logger';
 import createSagaMiddleware from 'redux-saga';
+import formActionSaga from 'redux-form-saga';
 import Immutable from 'immutable';
 import immutableTransform from 'redux-persist-transform-immutable';
 import rootReducer from './reducers';
@@ -56,5 +57,12 @@ export const store = createStore(
     ),
   ),
 );
+
+const sagas = [
+  formActionSaga
+];
+sagas.forEach((saga) => {
+  sagaMiddleware.run(saga);
+});
 
 export const persistor = persistStore(store);
