@@ -28,9 +28,9 @@ export class Login extends PureComponent<Props, State> {
           <Field
             component={Input}
             render={InputGroup}
-            name="Username"
+            name="Email"
             type="text"
-            placeholder="Username"
+            placeholder="Email"
             leftIcon="person"
             large
           />

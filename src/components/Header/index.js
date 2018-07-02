@@ -8,7 +8,7 @@ import {
   NavbarHeading,
   Popover,
   PopoverInteractionKind,
-  Position
+  Position,
 } from '@blueprintjs/core';
 import React, { PureComponent } from 'react';
 import Login from 'components/Login';
@@ -22,11 +22,11 @@ type State = {|
 class Header extends PureComponent<Props, State> {
   state = {
     isLoginPanelOpen: false,
-  }
+  };
 
   _handleInteraction = (nextOpenState: boolean) => {
     this.setState({ isLoginPanelOpen: nextOpenState });
-  }
+  };
 
   render (): React$Node {
     return (
