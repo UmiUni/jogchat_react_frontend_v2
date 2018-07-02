@@ -1,25 +1,29 @@
+/* @flow */
+
 import { call, put, takeEvery } from 'redux-saga/effects';
-import { login } from 'actions/auth';
+import { login as loginAction, type LoginActionParams } from 'actions/auth';
+import client from 'client';
+import type { Saga } from 'redux-saga';
 import { SubmissionError } from 'redux-form';
 
-// this function can be replaced by actual login APi call
-const fakeLogin = params => console.log('Login with: ', params);
+const login = ({ Email, Password }: LoginActionParams): Promise<*> =>
+  client.post('/login', { Email, Password });
 
-function* handleLoginSaga (action) {
+function* handleLoginSaga (action: { payload: LoginActionParams }): * {
   try {
-    yield call(fakeLogin, action.payload);
-    yield put(login.success());
+    const res = yield call(login, action.payload);
+    yield put(loginAction.success(res.data));
   } catch (error) {
     const formError = new SubmissionError({
       _error: 'Login failed',
     });
 
-    yield put(login.failure(formError));
+    yield put(loginAction.failure(formError));
   }
 }
 
-function* loginWatcherSaga () {
-  yield takeEvery(login.REQUEST, handleLoginSaga);
+function* loginWatcherSaga (): Saga<void> {
+  yield takeEvery(loginAction.REQUEST, handleLoginSaga);
 }
 
 export default loginWatcherSaga;

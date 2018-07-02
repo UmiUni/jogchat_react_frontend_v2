@@ -1,7 +1,6 @@
 /* @flow */
 
 import { createFormAction } from 'redux-form-saga';
-import type { Saga } from 'redux-saga';
 
 export type LoginActionParams = {|
   Email: string,
